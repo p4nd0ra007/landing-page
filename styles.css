@@ -1,0 +1,16 @@
+.header {
+    display:flex;
+    align-items:center
+    
+}
+
+ul{
+    display:flex;
+    margin-left:auto;
+    list-style:none;
+    align-items:center
+}
+
+.headline .header{
+    background-color:#2b3c53
+}
