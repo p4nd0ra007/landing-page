@@ -1,6 +1,14 @@
+body{
+    background-color:#1F2937;
+    width:75%;
+    margin-right:auto;
+    margin-left:auto
+}
+
 .header {
     display:flex;
-    align-items:center
+    align-items:center;
+    color:white
     
 }
 
@@ -11,6 +19,35 @@ ul{
     align-items:center
 }
 
-.headline .header{
-    background-color:#2b3c53
+.headline{
+    display:flex;
+    align-items:flex-end;
+    flex:1;
+    padding:20px 0
+    
 }
+
+.headline-text{
+    color:white;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    margin-right:auto;
+    justify-content:center;
+}
+
+.headline-img{
+    align-self:center;
+}
+
+.signup{
+    width:max-content;
+    align-self:center;
+}
+
+.more-info{
+    background-color:white;
+    color:black;
+    width:100%
+}
+
