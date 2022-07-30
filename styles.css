@@ -1,39 +1,54 @@
 body{
     background-color:#1F2937;
-    width:75%;
-    margin-right:auto;
-    margin-left:auto
+    margin:0;   
 }
 
 .header {
     display:flex;
-    align-items:center;
-    color:white
-    
+    justify-content:center;
+    color:white;
+    font-size:24px;
+    margin:30px 100px;
 }
 
 ul{
     display:flex;
     margin-left:auto;
     list-style:none;
-    align-items:center
+    align-items:center;
+    font-size:18px;
+}
+
+li{
+    margin:10px
 }
 
 .headline{
     display:flex;
     align-items:flex-end;
+    justify-content:center;
+    align-content:center;
     flex:1;
-    padding:20px 0
+    padding:75px 0;
+    margin:0 100px
     
 }
 
 .headline-text{
     color:white;
-    width:50%;
+    width:40%;
     display:flex;
     flex-direction:column;
-    margin-right:auto;
     justify-content:center;
+    margin-right:auto;
+}
+
+.headline h1{
+    font-size:48px;
+}
+
+.headline p{
+    font-size:18px;
 }
 
 .headline-img{
@@ -42,12 +57,111 @@ ul{
 
 .signup{
     width:max-content;
+    padding:5px 20px;
     align-self:center;
+    background-color:#3882f6;
+    color:white;
+    border-radius:5px;
+    border-style:solid;
+    border-color:#3882f6;
+    font-size:18px;
+}
+
+.highlight button{
+    border-color:white;
+    border-width:thin;
 }
 
 .more-info{
     background-color:white;
     color:black;
-    width:100%
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    flex:1;
+    padding:75px;
+    font-size:18px;
 }
 
+.thumbnails{
+  display:flex;
+  justify-content:center;
+  padding:10px; 
+}
+
+.img, .text{
+    display:flex;
+    flex-wrap:wrap;
+    margin:25px;
+    text-align:center;
+}
+
+.pairs{
+    display:flex;
+    flex-direction:column;
+    flex:1 1 1000px;
+    max-width:
+}
+
+.img{
+    border-style:solid;
+    border-radius:25px;
+    border-color:#3882f6;
+}
+
+.quote-box{
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-content:center;
+    padding:75px;
+}
+
+.one, .two{
+    width:50%;
+    margin:30px;
+    font-size:36px;
+}
+
+.two{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.call-to-action{
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    font-size:26px;
+}
+
+.highlight{
+    background-color:#3882f6;
+    color:white;
+    display:flex;
+    justify-content:center;
+    margin:75px;
+    padding:15px 100px;
+    border-radius:25px;
+}
+
+.highlight-text{
+    margin:10px;
+}
+
+.highlight-text p{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    color:white;
+    padding:30px;
+    font-size:36px;
+}
